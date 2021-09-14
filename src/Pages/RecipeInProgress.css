@@ -1,0 +1,63 @@
+.recipeInProgress {
+  background-color: #e5e5e5;
+  overflow-y: scroll;
+  position: absolute;
+  width: 94vw;
+  z-index: 1;
+}
+
+.recipeInProgressImage {
+  border-radius: 0 0 30px 30px;
+  height: 260px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.infoContainer {
+  background-color: white;
+  border-radius: 20px;
+  margin: 200px 10% 20px;
+  padding: 5%;
+  width: 80%;
+  z-index: 4;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerContainer .nameContainer h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.headerContainer .nameContainer h4 {
+  color: #606c38;
+  font-size: 22px;
+  font-weight: 40;
+}
+
+.headerContainer .iconsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContainer .iconsContainer button {
+  background-color: transparent;
+  border: none;
+  margin: 5px;
+}
+
+.recipeInProgress h3 {
+  color: #606c38;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.recipeInProgress .ingredientsContainer input {
+  margin-right: 5px;
+}
