@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Redirect, useLocation, Link } from 'react-router-dom';
 import useRandom from '../hooks/useRandom';
-import Header from '../Component/Header';
-import Footer from '../Component/Footer';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 function ExploreDrinksAndFoods() {
   const { pathname } = useLocation();

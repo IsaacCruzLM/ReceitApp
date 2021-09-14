@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Redirect } from 'react-router-dom';
-import Header from '../Component/Header';
-import Footer from '../Component/Footer';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 function Explore() {
   const [redirectTo, setRedirectTo] = useState({ foods: false, drinks: false });

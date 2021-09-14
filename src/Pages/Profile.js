@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Header from '../Component/Header';
-import Footer from '../Component/Footer';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 function Profile() {
   const mailUser = JSON.parse(localStorage.getItem('user'));

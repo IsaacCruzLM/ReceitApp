@@ -4,8 +4,8 @@ import { Redirect, useLocation } from 'react-router-dom';
 import AppContext from '../Context/AppContext';
 import useFilter from '../hooks/useFilter';
 import useFilterIngredient from '../hooks/useFilterIngredient';
-import Header from '../Component/Header';
-import Footer from '../Component/Footer';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 import '../styles/foods-drinks.css';
 
 function FoodsAndDrinks() {

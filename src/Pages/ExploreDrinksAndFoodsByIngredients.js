@@ -2,8 +2,8 @@ import React, { useState, useEffect, useContext } from 'react';
 import Spinner from 'react-bootstrap/Spinner';
 import { Redirect, useLocation } from 'react-router-dom';
 import AppContext from '../Context/AppContext';
-import Header from '../Component/Header';
-import Footer from '../Component/Footer';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 function ExploreDrinksAndFoodsByIngredients() {
   const [ingredients, setIngredients] = useState([]);

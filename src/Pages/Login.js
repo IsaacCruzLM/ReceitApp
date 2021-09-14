@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import { Redirect } from 'react-router-dom';
 import AppContext from '../Context/AppContext';
 
+import Logo from '../images/logoreceitapp.png';
+
 function Login() {
   const { setUserEmail } = useContext(AppContext);
   const [email, setMail] = useState('');
@@ -43,9 +45,9 @@ function Login() {
   return (
     <section className="login-page">
       { redirectValidation && <Redirect to="/comidas" /> }
+      <img src={ Logo } alt="Logo do ReceitaApp" />
       <Form className="login">
         <Form.Group className="mb-1" controlId="formBasicEmail">
-
           <Form.Control
             type="email"
             placeholder="Enter email"
