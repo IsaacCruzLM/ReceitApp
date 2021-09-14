@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ReceitApp/static/css/main.2fb603df.chunk.css",
+    "main.js": "/ReceitApp/static/js/main.ed515f90.chunk.js",
+    "main.js.map": "/ReceitApp/static/js/main.ed515f90.chunk.js.map",
+    "runtime-main.js": "/ReceitApp/static/js/runtime-main.297a30fd.js",
+    "runtime-main.js.map": "/ReceitApp/static/js/runtime-main.297a30fd.js.map",
+    "static/css/2.fa6c921b.chunk.css": "/ReceitApp/static/css/2.fa6c921b.chunk.css",
+    "static/js/2.bfa81aa5.chunk.js": "/ReceitApp/static/js/2.bfa81aa5.chunk.js",
+    "static/js/2.bfa81aa5.chunk.js.map": "/ReceitApp/static/js/2.bfa81aa5.chunk.js.map",
+    "index.html": "/ReceitApp/index.html",
+    "precache-manifest.4d8cd7db2df51c855af8ebf7b2b6391d.js": "/ReceitApp/precache-manifest.4d8cd7db2df51c855af8ebf7b2b6391d.js",
+    "service-worker.js": "/ReceitApp/service-worker.js",
+    "static/css/2.fa6c921b.chunk.css.map": "/ReceitApp/static/css/2.fa6c921b.chunk.css.map",
+    "static/css/main.2fb603df.chunk.css.map": "/ReceitApp/static/css/main.2fb603df.chunk.css.map",
+    "static/js/2.bfa81aa5.chunk.js.LICENSE.txt": "/ReceitApp/static/js/2.bfa81aa5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ReceitApp/static/media/background.fd159fa3.jpg",
+    "static/media/blackHeartIcon.svg": "/ReceitApp/static/media/blackHeartIcon.b8913346.svg",
+    "static/media/drinkIcon.svg": "/ReceitApp/static/media/drinkIcon.f87c47c3.svg",
+    "static/media/exploreIcon.svg": "/ReceitApp/static/media/exploreIcon.157945ff.svg",
+    "static/media/logoreceitapp.png": "/ReceitApp/static/media/logoreceitapp.ecee03f3.png",
+    "static/media/mealIcon.svg": "/ReceitApp/static/media/mealIcon.b27ba19e.svg",
+    "static/media/profileIcon.svg": "/ReceitApp/static/media/profileIcon.74e487e5.svg",
+    "static/media/searchIcon.svg": "/ReceitApp/static/media/searchIcon.db812135.svg",
+    "static/media/shareIcon.svg": "/ReceitApp/static/media/shareIcon.06215ed4.svg",
+    "static/media/whiteHeartIcon.svg": "/ReceitApp/static/media/whiteHeartIcon.ea3b6ba8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.297a30fd.js",
+    "static/css/2.fa6c921b.chunk.css",
+    "static/js/2.bfa81aa5.chunk.js",
+    "static/css/main.2fb603df.chunk.css",
+    "static/js/main.ed515f90.chunk.js"
+  ]
+}
