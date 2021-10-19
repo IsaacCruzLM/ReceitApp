@@ -1,5 +1,6 @@
 <h1 align="center">
   Projeto ReceitApp
+  <img alt="logo" src="./src/logoreceitapp.png" width="30px">
 </h1>
 
 <p align="center">
