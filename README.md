@@ -1,6 +1,6 @@
-<p align="center">
+<div align="center">
  <img alt="logo" src="./src/images/logoreceitapp.png" width="100px">
-</p>
+</div>
 
 <h1 align="center">
   Projeto ReceitApp
