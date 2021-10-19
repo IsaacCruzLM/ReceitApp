@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto_1" src="./public/ReceitApp_1.jpeg" height="60%" width="30%">
+  <img alt="Projeto_1" src="./public/ReceitApp_1.jpeg" height="300px" width="30%">
   <img alt="Projeto_2" src="./public/ReceitApp_2.jpeg" height="60%" width="30%">
   <img alt="Projeto_3" src="./public/ReceitApp_3.jpeg" height="60%" width="30%">
 </p>
