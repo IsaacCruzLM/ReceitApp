@@ -1,6 +1,6 @@
 <h1 align="center">
   Projeto ReceitApp
-  <img alt="logo" src="./src/logoreceitapp.png" width="30px">
+  <img alt="logo" src="./src/images/logoreceitapp.png" width="30px">
 </h1>
 
 <p align="center">
@@ -16,9 +16,9 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto_1" src="./public/ReceitApp_1.jpeg" height="450px" width="30%">
-  <img alt="Projeto_2" src="./public/ReceitApp_2.jpeg" height="450px" width="30%">
-  <img alt="Projeto_3" src="./public/ReceitApp_3.jpeg" height="450px" width="30%">
+  <img alt="Projeto_1" src="./public/ReceitApp_1.jpeg" height="400px" width="30%">
+  <img alt="Projeto_2" src="./public/ReceitApp_2.jpeg" height="400px" width="30%">
+  <img alt="Projeto_3" src="./public/ReceitApp_3.jpeg" height="400px" width="30%">
 </p>
 
 ## 🚀 Tecnologias
