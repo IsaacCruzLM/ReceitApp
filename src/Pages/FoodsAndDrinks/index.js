@@ -1,12 +1,15 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Spinner from 'react-bootstrap/Spinner';
 import { Redirect, useLocation } from 'react-router-dom';
-import AppContext from '../Context/AppContext';
-import useFilter from '../hooks/useFilter';
-import useFilterIngredient from '../hooks/useFilterIngredient';
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
-import '../styles/foods-drinks.css';
+
+import AppContext from '../../Context/AppContext';
+import useFilter from '../../hooks/useFilter';
+import useFilterIngredient from '../../hooks/useFilterIngredient';
+
+import Header from '../../Components/Header';
+import Footer from '../../Components/Footer';
+
+import './styles.css';
 
 function FoodsAndDrinks() {
   const { globalState, setLoadSearch } = useContext(AppContext);
@@ -101,6 +104,7 @@ function FoodsAndDrinks() {
           <span
             data-testid={ `${index}-card-name` }
             className="name-horizontal-card"
+            title={ item[`str${type}`] }
           >
             { item[`str${type}`] }
           </span>

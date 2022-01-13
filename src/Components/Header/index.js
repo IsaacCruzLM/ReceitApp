@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import SearchBar from './SearchBar';
-import iconProfile from '../images/profileIcon.svg';
-import iconSearch from '../images/searchIcon.svg';
+import SearchBar from '../SearchBar';
+import iconProfile from '../../images/profileIcon.svg';
+import iconSearch from '../../images/searchIcon.svg';
 import './header.css';
 
 const showSearchBar = {

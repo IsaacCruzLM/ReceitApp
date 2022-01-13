@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import AppContext from '../Context/AppContext';
+import AppContext from '../../Context/AppContext';
 
 import './RecipeInProgressButton.css';
 

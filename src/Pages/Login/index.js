@@ -2,9 +2,11 @@ import React, { useState, useContext, useEffect } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Redirect } from 'react-router-dom';
-import AppContext from '../Context/AppContext';
 
-import Logo from '../images/logoreceitapp.png';
+import AppContext from '../../Context/AppContext';
+import Logo from '../../images/logoreceitapp.png';
+
+import './styles.css';
 
 function Login() {
   const { setUserEmail } = useContext(AppContext);
@@ -43,41 +45,44 @@ function Login() {
   };
 
   return (
-    <section className="login-page">
+    <section className="loginPage">
       { redirectValidation && <Redirect to="/comidas" /> }
-      <img src={ Logo } alt="Logo do ReceitaApp" />
-      <Form className="login">
-        <Form.Group className="mb-1" controlId="formBasicEmail">
-          <Form.Control
-            type="email"
-            placeholder="Enter email"
-            name="email"
-            onChange={ (event) => setMail(event.target.value) }
-            data-testid="email-input"
-          />
-          <Form.Text className="text-muted" />
-        </Form.Group>
+      <div className="loginContainer">
+        <img src={ Logo } alt="Logo do ReceitaApp" />
+        <Form className="login">
+          <Form.Group className="mb-1" controlId="formBasicEmail">
+            <Form.Control
+              type="email"
+              placeholder="Enter email"
+              name="email"
+              onChange={ (event) => setMail(event.target.value) }
+              data-testid="email-input"
+            />
+            <Form.Text className="text-muted" />
+          </Form.Group>
 
-        <Form.Group className="mb-2" controlId="formBasicPassword">
-          <Form.Control
-            type="password"
-            placeholder="Password"
-            name="password"
-            onChange={ (event) => setPassword(event.target.value) }
-            data-testid="password-input"
-          />
-        </Form.Group>
-        <Button
-          className="mb-3"
-          variant="primary"
-          type="button"
-          data-testid="login-submit-btn"
-          disabled={ formValidation }
-          onClick={ handleSubmit }
-        >
-          Entrar
-        </Button>
-      </Form>
+          <Form.Group className="mb-2" controlId="formBasicPassword">
+            <Form.Control
+              type="password"
+              placeholder="Password"
+              name="password"
+              onChange={ (event) => setPassword(event.target.value) }
+              data-testid="password-input"
+            />
+          </Form.Group>
+
+          <Button
+            className="mb-3"
+            variant="primary"
+            type="button"
+            data-testid="login-submit-btn"
+            disabled={ formValidation }
+            onClick={ handleSubmit }
+          >
+            Entrar
+          </Button>
+        </Form>
+      </div>
     </section>
   );
 }

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Redirect } from 'react-router-dom';
 import { Spinner } from 'react-bootstrap';
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
-import '../styles/explore-foods-by-origin.css';
+import Header from '../../Components/Header';
+import Footer from '../../Components/Footer';
+import '../../styles/explore-foods-by-origin.css';
 
 function ExploreFoodsByOrigin() {
   const [foods, setFoods] = useState([1]);

@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-import { getCocktailByID } from '../Services/fetchCocktails';
-import { getMealByID } from '../Services/fetchMeals';
+import { getCocktailByID } from '../../Services/fetchCocktails';
+import { getMealByID } from '../../Services/fetchMeals';
 
-import RecipeDetailHeader from '../Components/RecipeDetailHeader';
-import RecipeDetailInstructions from '../Components/RecipeDetailInstructions';
-import RecipeInProgressIngredients from '../Components/RecipeInProgressIngredients';
-import RecipeInProgressButton from '../Components/RecipeInProgressButton';
+import RecipeDetailHeader from '../../Components/RecipeDetailHeader';
+import RecipeDetailInstructions from '../../Components/RecipeDetailInstructions';
+import RecipeInProgressIngredients from '../../Components/RecipeInProgressIngredients';
+import RecipeInProgressButton from '../../Components/RecipeInProgressButton';
 
 import './RecipeInProgress.css';
 

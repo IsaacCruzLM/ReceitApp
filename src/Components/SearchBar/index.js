@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { useLocation, Redirect } from 'react-router-dom';
-import FetchSearch from '../Services/FetchSearch';
-import AppContext from '../Context/AppContext';
+import FetchSearch from '../../Services/FetchSearch';
+import AppContext from '../../Context/AppContext';
 import './search-bar.css';
 
 function SearchBar() {

@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useContext } from 'react';
 import PropTypes from 'prop-types';
-import AppContext from '../Context/AppContext';
+import AppContext from '../../Context/AppContext';
 
-import RecipeInProgressCheckBox from './RecipeInProgressCheckBox';
+import RecipeInProgressCheckBox from '../RecipeInProgressCheckBox';
 
 const defaultInProgresStorage = {
   cocktails: {},

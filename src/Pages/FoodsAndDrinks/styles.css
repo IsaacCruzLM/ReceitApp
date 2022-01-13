@@ -1,0 +1,132 @@
+/* stylelint-disable declaration-no-important */
+.pag-foods-drinks {
+  background-color: #fefae0;
+  color: #161616;
+  min-height: 100vh;
+}
+
+.container-cards {
+  align-items: center;
+  background-color: #fefae0;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: none;
+  border-radius: 2.5rem;
+  box-shadow: 0.125rem 0.125rem 0.25rem #c5c5c5;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  margin: 0.5rem;
+}
+
+.card-body {
+  min-height: 3.125rem;
+  padding: 0;
+  text-align: center;
+}
+
+.card-img-top {
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+  height: 8.75rem;
+  width: 8.75rem;
+}
+
+.card-title {
+  color: #161616;
+  font-family: Lato , sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0.625rem 0;
+}
+
+.horizontal-card {
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 1.25rem;
+  box-shadow: 0.125rem 0.125rem 0.25rem #c5c5c5;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5rem 0;
+  min-height: 6.25rem;
+  outline: none;
+  width: 90vw;
+}
+
+.img-horizontal-card {
+  border-bottom-left-radius: 1.25rem;
+  border-top-left-radius: 1.25rem;
+  width: 6.25rem;
+}
+
+.horizontal-card-infos {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  margin-left: 0.938rem;
+  width: 11.875rem;
+}
+
+.horizontal-card-infos span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.name-horizontal-card {
+  color: #161616;
+  font-family: Lato , sans-serif;
+  font-size: 1.375rem;
+  font-weight: 700;
+  padding: 0.125rem 0;
+  text-decoration: none;
+}
+
+@media screen and ( min-width : 425px ) {
+
+  .container-cards {
+    display: flex;
+    flex-direction: row ! important;
+    margin: 30px;
+  }
+
+  .horizontal-card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 6.25rem;
+  }
+
+  .img-horizontal-card {
+    border-radius: 1.25rem 1.25rem 0 0;
+    width: 100%;
+  }
+
+  .horizontal-card-infos {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+  }
+
+}
+
+@media screen and ( min-width : 900px ) {
+
+  .container-cards {
+    margin: 20px 50px;
+  }
+
+  .horizontal-card {
+    margin: 20px;
+    width: 8.25rem;
+  }
+
+}

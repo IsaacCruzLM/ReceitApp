@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-import FavoriteButtonIcon from './FavoriteButtonIcon';
+import FavoriteButtonIcon from '../FavoriteButtonIcon';
 
 function RecipeDetailFavoriteButton({ recipe, type, recipeID }) {
   const [isFavorite, setIsFavorite] = useState(false);

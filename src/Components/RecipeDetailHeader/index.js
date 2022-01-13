@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import copy from 'clipboard-copy';
 
-import shareIcon from '../images/shareIcon.svg';
-import RecipeDetailFavoriteButton from './RecipeDetailsFavoriteButton';
+import shareIcon from '../../images/shareIcon.svg';
+import RecipeDetailFavoriteButton from '../RecipeDetailsFavoriteButton';
 
 function RecipeDetailHeader({ recipe, type, recipeID }) {
   const [recipeName, setRecipeName] = useState('');

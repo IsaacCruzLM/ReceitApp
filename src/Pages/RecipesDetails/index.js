@@ -2,15 +2,15 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-import { getCocktailByID } from '../Services/fetchCocktails';
-import { getMealByID } from '../Services/fetchMeals';
+import { getCocktailByID } from '../../Services/fetchCocktails';
+import { getMealByID } from '../../Services/fetchMeals';
 
-import RecipeDetailHeader from '../Components/RecipeDetailHeader';
-import RecipeDetailIngredients from '../Components/RecipeDetailIngredients';
-import RecipeDetailInstructions from '../Components/RecipeDetailInstructions';
-import RecipeDetailVideo from '../Components/RecipeDetailVideo';
-import RecipeDetailsRecomendations from '../Components/RecipeDetailsRecomendations';
-import RecipeDetailButton from '../Components/RecipeDetailButton';
+import RecipeDetailHeader from '../../Components/RecipeDetailHeader';
+import RecipeDetailIngredients from '../../Components/RecipeDetailIngredients';
+import RecipeDetailInstructions from '../../Components/RecipeDetailInstructions';
+import RecipeDetailVideo from '../../Components/RecipeDetailVideo';
+import RecipeDetailsRecomendations from '../../Components/RecipeDetailsRecomendations';
+import RecipeDetailButton from '../../Components/RecipeDetailButton';
 
 import './RecipesDetails.css';
 
