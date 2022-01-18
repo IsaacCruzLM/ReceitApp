@@ -2,7 +2,7 @@
   background-color: #e5e5e5;
   overflow-y: scroll;
   position: absolute;
-  width: 94vw;
+  width: 100%;
   z-index: 1;
 }
 
@@ -61,3 +61,11 @@
 .recipeInProgress .ingredientsContainer input {
   margin-right: 5px;
 }
+
+@media screen and ( min-width : 900px ) {
+
+  .recipeInProgress {
+    overflow-y: auto;
+  }
+}
+

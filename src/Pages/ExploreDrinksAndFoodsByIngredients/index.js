@@ -49,7 +49,7 @@ function ExploreDrinksAndFoodsByIngredients() {
       }
       const number = 12;
       return (
-        <div>
+        <div className="pages">
           <Header titlePage="Explorar Ingredientes" />
           <div className="header-space"> </div>
           <div className="container-cards">
@@ -90,7 +90,7 @@ function ExploreDrinksAndFoodsByIngredients() {
       const api = 'https://www.thecocktaildb.com/images/ingredients/';
       const number = 12;
       return (
-        <div>
+        <div className="pages">
           <Header titlePage="Explorar Ingredientes" />
           <div className="header-space"> </div>
           <div className="container-cards">

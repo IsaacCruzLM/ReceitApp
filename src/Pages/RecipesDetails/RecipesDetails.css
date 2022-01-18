@@ -2,7 +2,7 @@
   background-color: #e5e5e5;
   overflow-y: scroll;
   position: absolute;
-  width: 94vw;
+  width: 100%;
   z-index: 1;
 }
 
@@ -65,4 +65,11 @@
 
 .videoContainer iframe {
   border-radius: 10px;
+}
+
+@media screen and ( min-width : 900px ) {
+
+  .recipeDetails {
+    overflow-y: auto;
+  }
 }

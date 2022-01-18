@@ -5,7 +5,7 @@ import useFilterMadeAndFavorite from '../../hooks/useFilterMadeAndFavorite';
 import CardMade from '../../Components/CardMade';
 import CardFavorite from '../../Components/CardFavorite';
 import Header from '../../Components/Header';
-import '../../styles/made-favorite-recipes.css';
+import './styles.css';
 
 function MadeAndFavoriteRecipes() {
   const { madeRecipes, filter, setFilter, setRecipes } = useFilterMadeAndFavorite();
