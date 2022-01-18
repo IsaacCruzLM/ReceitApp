@@ -80,7 +80,7 @@ $ npm start
 
 Você pode visualizar a aplicação do projeto através [desse link](https://isaaccruzlm.github.io/ReceitApp/).
 
-Obs: Esta aplicação foi realizada para um view mobile, para uma melhor expriência, recomenda-se utilizar uma view com dimensões de 320 x 568 (iPhone 5/SE) ou similares.
+Obs: Esta aplicação foi realizada para um view mobile, para uma melhor experiência, recomenda-se utilizar uma view com dimensões de 320 x 568 (iPhone 5/SE) ou similares.
 
 ---
 
