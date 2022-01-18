@@ -9,7 +9,10 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-deploy">Deploy</a>
+  <a href="#-como-executar-o-projeto">Como executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir-no-projeto">Como contribuir no projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-autor">Autor</a>
 </p>
 
 <p align="center">
@@ -45,6 +48,34 @@ Este projeto foi realizado em grupo, pelos seguintes integrantes:
 - Eurides Alves ([GitHub](https://github.com/EuridesAlves));
 - Alice Gonçalves ([GitHub](https://github.com/AliceGS19));
 
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Rodando a Aplicação
+
+```bash
+
+# Clone este repositório
+$ git clone git@github.com:IsaacCruzLM/ReceitApp.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd ReceitApp
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
+
+```
+
 ## 🔖 Deploy
 
 Você pode visualizar a aplicação do projeto através [desse link](https://isaaccruzlm.github.io/ReceitApp/).
@@ -53,5 +84,28 @@ Obs: Esta aplicação foi realizada para um view mobile, para uma melhor expriê
 
 ---
 
-By Isaac Cruz Leite Machado :wave:.
+## 💪 Como contribuir no projeto
 
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+
+---
+
+## 🦸 Autor
+
+<a href="https://www.linkedin.com/in/isaaccruzz/">
+ <img style="border-radius: 50%;" src="./public/profile.jpeg" width="100px;" alt=""/>
+ <br />
+ <sub><b>Isaac Cruz</b></sub></a>
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Isaac-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isaaccruzz/)](https://www.linkedin.com/in/isaaccruzz/) 
+[![Gmail Badge](https://img.shields.io/badge/-isaac.clm1@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:isaac.clm1@gmail.com)](mailto:isaac.clm1@gmail.com)
+
+---
+
+Feito com ❤️ por Isaac Cruz👋🏽 [Entre em contato!](https://www.linkedin.com/in/isaaccruzz/)
+
+---
