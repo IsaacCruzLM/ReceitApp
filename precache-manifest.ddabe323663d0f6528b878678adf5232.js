@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68d24bab1d5959c5fdddffb90116b605",
+    "revision": "12eb25a518957f849624e9880215bc1a",
     "url": "/ReceitApp/index.html"
   },
   {
-    "revision": "9aec676b5526f9707f5f",
+    "revision": "01dfd6c2175801b4839a",
     "url": "/ReceitApp/static/css/2.fa6c921b.chunk.css"
   },
   {
-    "revision": "7fa8fc3216a28764a0bc",
-    "url": "/ReceitApp/static/css/main.b751ca2e.chunk.css"
+    "revision": "9638ba62cff54a023762",
+    "url": "/ReceitApp/static/css/main.3a568d5f.chunk.css"
   },
   {
-    "revision": "9aec676b5526f9707f5f",
-    "url": "/ReceitApp/static/js/2.b341d8b0.chunk.js"
+    "revision": "01dfd6c2175801b4839a",
+    "url": "/ReceitApp/static/js/2.32dd5b22.chunk.js"
   },
   {
     "revision": "57fb86a905f06aed4b5091745659b335",
-    "url": "/ReceitApp/static/js/2.b341d8b0.chunk.js.LICENSE.txt"
+    "url": "/ReceitApp/static/js/2.32dd5b22.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7fa8fc3216a28764a0bc",
-    "url": "/ReceitApp/static/js/main.24a90e62.chunk.js"
+    "revision": "9638ba62cff54a023762",
+    "url": "/ReceitApp/static/js/main.cf216516.chunk.js"
   },
   {
     "revision": "2b62814af906ba4acd0b",
